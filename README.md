@@ -53,5 +53,5 @@ Bagdes displaying *Made With PICO-8* which you can include in your `README.md` o
 That's fine! towards the beginning of the url, you can find the section `Made%20With-PICO--8-ff004d.svg`, replace `ff004d` with your palette colour of choice!
 
 # Sources:
-- [https://shields.io/#/](https://shields.io/#/)
-- [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php)
+- [Shields.io](https://shields.io/#/)
+- [PICO-8](https://www.lexaloffle.com/pico-8.php)
