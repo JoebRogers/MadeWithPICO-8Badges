@@ -52,6 +52,33 @@ Bagdes displaying *Made With PICO-8* which you can include in your `README.md` o
 
 That's fine! towards the beginning of the url, you can find the section `Made%20With-PICO--8-ff004d.svg`, replace `ff004d` with your palette colour of choice!
 
+## I'm having issues with kerning on certain characters!
+
+From what I can tell, this appears to be an issue only in Firefox - it's an issue with Shields.io, which looking into their past issues page, has had several issues with fonts and overall consistent rendering quality in Firefox. 
+
+The closest thing to a solution I've found at this time for resolving this, is to replace the SVG badge with the PNG version, which has more appears to be more consistent across browser platforms.
+
+To do this, here are the sections you need to adjust from the above links:
+
+```
+https://img.shields.io/
+```
+Should become
+```
+https://raster.shields.io/
+```
+
+And
+```
+Made%20With-PICO--8-ff004d.svg?
+```
+Should become
+```
+Made%20With-PICO--8-ff004d.png?
+```
+
+The kerning quality increase on Firefox definitely isn't huge, but it is at least better than what is currently being shown with the SVGs.
+
 # Sources:
 - [Shields.io](https://shields.io/#/)
 - [PICO-8](https://www.lexaloffle.com/pico-8.php)
