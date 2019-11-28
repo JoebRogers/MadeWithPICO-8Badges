@@ -10,7 +10,7 @@ Bagdes displaying *Made With PICO-8* which you can include in your `README.md` o
 
 It's been brought to my attention that there are issues with badge rendering via the original hosting choice (**Shields.io**) I had decided to use. So far, it appears these issues only extend as far as odd kerning and font appearance, and only on very specific versions of Firefox + OS.
 
-With that in mind, I've searched around and found and alternative which I believe has greater stability, but I'll be relying on reports of issues to make a real overall judgement. In exchange for the stability however, the alternative host has less options for badge appearance.
+With that in mind, I've searched around and found and alternative which I believe has greater stability (**Badgen**), but I'll be relying on reports of issues to make a real overall judgement. In exchange for the stability however, the alternative host has less options for badge appearance.
 
 ### Shields.io
 
